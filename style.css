@@ -1,0 +1,360 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+header{
+    background: url(img/hero.jpg)no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    height: 670px;
+    width: 100%;
+}
+
+.language{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.205);
+    width: 100px;
+    margin: 10px;
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.26);
+  z-index: 0;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.452);
+    z-index: 1;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 20px;
+    list-style: none;
+}
+
+.nav-fixed{
+    display: flex;
+    position: fixed;
+    margin: 73px 0;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    width: 100%;
+    background-color: #79826A70;
+}
+
+li{
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.918);
+    font-weight: bold;
+    padding: 5px;
+}
+
+li:hover a{
+    color: rgba(255, 255, 255, 0.459);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.897);
+    border-radius: 5px;
+    border:1px solid rgba(255, 255, 255, 0.562);
+    transition: 1s;
+}
+
+.national-btn{
+    background-color: transparent;
+    border: none;
+}
+
+.national-logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.432);
+    float: left;
+}
+
+button{
+    background-color: brown;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    border: none;
+}
+
+.navigation{
+    padding: 200px 50px 20px 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.navigation h1 h2 p button{
+    margin: 10px;
+    z-index: 999;
+}
+
+.menu-toggle{
+    display: none;
+}
+
+.swahili{
+    display: none;
+}
+
+.swahili.active{
+    display: flex;
+}
+
+     /* About Section */
+.about{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 650px;
+    padding: 100px 50px;
+    align-items:center;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.712);
+    border-radius: 0 0 200px 200px;
+}
+
+.about img{
+    width: 340px;
+    height: 500px;
+    border-radius: 180px;
+    filter: drop-shadow(0 0 10px black);
+}
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    justify-items: center;
+    align-content: center;
+    padding: 100px;
+
+}
+
+
+
+.more{
+    width: 100%;
+    background: url(img/book.jpg)no-repeat center center/cover;
+    color: #000000;
+    padding: 30px 50px 100px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    height: 100%;
+}
+
+.more:hover{
+    height: 1200px;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.733);
+    padding: 10px;
+    margin: 20px 0;
+    width: 100%;
+    height: 100px;
+}
+
+.dropdown-content{
+    display: none;
+    color: black;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.575);
+    padding: 12px 10px;
+    z-index: 1;
+    margin: 10px 0;
+    border-radius: 20px;
+}
+
+.dropdown-content p{
+    margin: 20px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+
+     /* Footer Section */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    padding: 50px 20px;
+    background-color: #042222;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    width: 100%;
+    margin: 0 30px 50px 30px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.308);
+}
+
+.social-media{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 15px;
+    border: 3px solid rgba(255, 253, 253, 0.315);  
+}
+
+.social-media:hover{
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 17.5px;
+    box-shadow: 0 0 10px rgb(99, 4, 4);
+    transition: 1s;
+}
+
+.footer-link{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px;
+}
+
+.footer-link h1{
+    color: rgba(0, 0, 0, 0.644);
+    font-size: medium;
+    margin: 10px 0;
+}
+
+.footer-link p{
+    color: rgba(184, 157, 157, 0.548);
+}
+
+.footer-link a{
+    margin: 5px;
+    font-weight: bold;
+    color: rgb(184, 157, 157, 0.548);
+    display: flex;
+}
+
+.partner:hover{
+    opacity: 0.2;
+    cursor: pointer;
+    border: 2px solid rgba(255, 255, 255, 0.39);
+}
+
+.partner{
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+
+@media (max-width: 768px){
+    .menu-toggle{
+    display: block;
+    color: white;
+    font-size: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+    float: right;
+    padding-bottom: 10px;
+   }
+   
+   header{
+    height: 750px;
+   }
+
+    .nav-links{
+    background-color: rgba(0, 0, 0, 0.384);
+    display: none;
+    flex-direction: column;
+    float: right;
+    width: 200px;
+    padding: 1rem 0;
+    z-index: 1;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.226);
+    box-shadow: 0 0 10px black;
+    margin-top: 2px;
+   } 
+
+   .nav-links.active {
+    display: flex;
+    } 
+
+    .navigation{
+        padding: 200px 50px;
+    }
+
+
+    .about{
+        flex-direction: column;
+        height: 750px;
+    }
+
+    .about img{
+    width: 200px;
+    height: 300px;
+    border-radius: 115px;
+    margin-bottom: 20px;
+    }
+
+    .footer-content{
+    flex-direction: column;
+    }
+
+}
