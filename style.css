@@ -315,7 +315,7 @@ footer{
    }
    
    header{
-    height: 750px;
+    height: 850px;
    }
 
     .nav-links{
@@ -343,7 +343,7 @@ footer{
 
     .about{
         flex-direction: column;
-        height: 750px;
+        height: 850px;
     }
 
     .about img{
@@ -355,6 +355,10 @@ footer{
 
     .footer-content{
     flex-direction: column;
+    }
+
+    .dropdown-content ul{
+        flex-direction: column;
     }
 
 }
