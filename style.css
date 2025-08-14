@@ -10,6 +10,12 @@ body{
     background-color: rgb(0, 0, 0);
 }
 
+.social{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
 header{
     background: url(img/hero.jpg)no-repeat center center/cover;
     display: flex;
@@ -388,12 +394,12 @@ footer{
     }
 
     .selective{
-        height: 4300px;
+        height: 4500px;
         padding: 200px 50px;
     }
 
     .dropdown-content{
-        height: 1500px;
+        height: 1200px;
     }
 
 }
