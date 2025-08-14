@@ -182,6 +182,15 @@ button{
     height: 850px;
 }
 
+.more::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.267);
+  z-index: 0;
+}
+
 .selective{
     width: 100%;
     height: 2100px;
@@ -201,6 +210,7 @@ button{
 }
 
 .dropdown{
+    color: white;
     position: relative;
     display: inline-block;
     background-color: #dc9754;
@@ -358,7 +368,7 @@ footer{
 
     .about{
         flex-direction: column;
-        height: 850px;
+        height: 950px;
     }
 
     .about img{
@@ -368,26 +378,22 @@ footer{
     margin-bottom: 20px;
     }
 
-
-    .more:hover{
-    height: 1200px;
-    top: 0;
-    }
-
     .footer-content{
     flex-direction: column;
     }
 
     .dropdown-content ul{
         flex-direction: column;
+        padding: 20px;
     }
 
     .selective{
-        height: 4000px;
+        height: 4300px;
+        padding: 200px 50px;
     }
 
     .dropdown-content{
-        height: 1000px;
+        height: 1500px;
     }
 
 }
