@@ -402,4 +402,21 @@ footer{
         height: 1200px;
     }
 
+    .social-media{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    border-radius: 7.5px;
+    border: 3px solid rgba(255, 253, 253, 0.315);  
+    }
+
+    .social-media:hover{
+        width: 25px;
+        height: 25px;
+        margin: 5px;
+        border-radius: 12.5px;
+        box-shadow: 0 0 10px rgb(99, 4, 4);
+        transition: 1s;
+    }
+
 }
