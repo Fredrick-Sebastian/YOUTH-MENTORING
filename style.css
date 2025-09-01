@@ -334,6 +334,13 @@ footer{
     justify-items: center;
 }
 
+.us{
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
 @media (max-width: 768px){
     .menu-toggle{
     display: block;
@@ -394,8 +401,12 @@ footer{
     }
 
     .selective{
-        height: 4500px;
-        padding: 200px 50px;
+        height: 5500px;
+        padding: 100px 50px;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
     }
 
     .dropdown-content{
@@ -406,7 +417,7 @@ footer{
     width: 20px;
     height: 20px;
     margin: 5px;
-    border-radius: 7.5px;
+    border-radius: 10px;
     border: 3px solid rgba(255, 253, 253, 0.315);  
     }
 
